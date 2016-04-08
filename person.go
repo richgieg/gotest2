@@ -3,8 +3,7 @@ package main
 import "fmt"
 
 type Person struct {
-	Name string
-	Age  int
+	Animal
 }
 
 func NewPerson(name string, age int) *Person {

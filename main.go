@@ -7,4 +7,7 @@ func main() {
 
 	p := NewPerson("John", 45)
 	p.Talk()
+
+	d := NewDog("Fido", 5)
+	d.Talk()
 }
